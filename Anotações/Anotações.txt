@@ -1,0 +1,54 @@
+__ __
+
+-O que é uma variável?
+---Um espaço na memória do computador, onde se pode guaradr valores
+
+-Existem 4 tipos:
+---	Instâcia: objeto
+---	Classe: classe
+---	Local: dentro de métodos
+---	Parâmetro: Na assinatura do método
+
+
+__Criação__
+
+-Padrão de definição
+
+<?visibilidade?> <?modificador?> tipo nome <?=valorInicial?>;
+/// dentro de interrogaçõe não é obrigatório __tipo de nome__ obrigatório
+
+V: "public", "protected" e "private"
+M:"static" e "final"
+T: tipo de dado
+N: nome que é fornecido a variável
+VI: um valor inicial, caso se deseje
+
+-Convenções e regras
+--Não devem começar com números;
+--Embora permitido, $ e _ devem ser evitados;
+--São case-sentives (diferencia maiúsculo de minúsculo)
+--Sem espaços;
+--Não pode ser as palavras reservadas do java
+
+-Tipificação
+--Estática(forte vs Dinâmica(fraco)
+--Primitivo vs Composto
+
+Opções de Tipos:
+-textual -- char: caracteres de 16-bit unicode => char c = '\u0084'; ou char c = 'T'; (valor default = '\u0000')
+	 -- String: um tipo "especial" => String s = "T"; (valor default = null)
+
+-numeral -- byte: -128 até 127 => byte b = 15; (valor default = 0)
+	 -- short: -32.768 até 32.767 => s = -15785; (valor default = 0)
+	 -- int: -2.147.483.648 até 2.147.483.647 => int i = 85155785; (valor default = 0)
+	 -- long: -9.223.372.036.854.775.808 até 9.223.372.036.854.775.807 => long l = 5938515785L; (valor default = 0L)
+	 -- float: +-3.40282347E+38F => float f = 3.14...(f); (valor default = 0.0f)
+	 -- doble: +-1.79769313486231570E+308 => double d = 3.14...(d); (valor default = 0.0d)
+
+-lógico  -- boolean: true e false => boolean s = false; (valor default = false)
+	 
+-objeto  -- (valor default = null)
+
+
+
+
